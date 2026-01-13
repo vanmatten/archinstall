@@ -1936,3 +1936,6 @@ msgstr ""
 
 msgid "Use Network Manager (iwd backend)"
 msgstr ""
+
+msgid "Firewall"
+msgstr ""
