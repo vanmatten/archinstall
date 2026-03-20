@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-01-20 19:23+0100\n"
+"PO-Revision-Date: 2026-03-20 21:57+0100\n"
 "Last-Translator: Van Matten\n"
 "Language-Team: Alessio Cuccovillo <alessio.cuccovillo.dev@gmail.com>, Van Matten\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-SearchPath-0: base.pot\n"
 
@@ -1883,38 +1883,23 @@ msgstr "Usa NetworkManager (backend iwd)"
 msgid "Firewall"
 msgstr "Firewall"
 
-msgid "Enter credentials file decryption password"
-msgstr "Inserici la password di decrittazione del file delle credenziali"
-
-msgid "Configuration preview"
-msgstr "Anteprima della configurazione"
-
-msgid "Enter a directory for the configuration(s) to be saved"
-msgstr "Inserisci una cartella in cui salvare le configurazioni"
-
-msgid "Enter a respository name"
-msgstr "Inserisci il nome di un repository"
-
-msgid "Enter the repository url"
-msgstr "Inserisci l'URL della repository"
-
-msgid "Enter server url"
-msgstr "Inserisci l'URL del server"
-
-msgid "Select mirror regions to be enabled"
-msgstr "Seleziona quali regioni dei mirror abilitare"
-
-msgid "Select optional repositories to be enabled"
-msgstr "Seleziona quali repository aggiuntive opzionali abilitare"
-
 msgid "Select audio configuration"
 msgstr "Seleziona la configurazione audio"
+
+msgid "Enter credentials file decryption password"
+msgstr "Inserici la password di decrittazione del file delle credenziali"
 
 msgid "Enter root password"
 msgstr "Inserisci la password di root"
 
 msgid "Select bootloader to install"
 msgstr "Seleziona il bootloader da installare"
+
+msgid "Configuration preview"
+msgstr "Anteprima della configurazione"
+
+msgid "Enter a directory for the configuration(s) to be saved"
+msgstr "Inserisci una cartella in cui salvare le configurazioni"
 
 msgid "Select encryption type"
 msgstr "Seleziona il tipo di crittografia"
@@ -1956,15 +1941,45 @@ msgstr "Inserisci un nome dell'host"
 msgid "Select timezone"
 msgstr "Seleziona il fuso orario"
 
-msgid "No packages found"
-msgstr "Nessun pacchetto trovato"
-
 msgid "Enter the number of parallel downloads to be enabled"
 msgstr "Inserisci il numero di download in parallelo da abilitare"
 
 #, python-brace-format
 msgid "Value must be between 1 and {}"
 msgstr "Il valore deve essere tra 1 e {}"
+
+msgid "Select which kernel(s) to install"
+msgstr "Scegli quali kernel installare"
+
+msgid "Enter a respository name"
+msgstr "Inserisci il nome di un repository"
+
+msgid "Enter the repository url"
+msgstr "Inserisci l'URL della repository"
+
+msgid "Enter server url"
+msgstr "Inserisci l'URL del server"
+
+msgid "Select mirror regions to be enabled"
+msgstr "Seleziona quali regioni dei mirror abilitare"
+
+msgid "Select optional repositories to be enabled"
+msgstr "Seleziona quali repository aggiuntive opzionali abilitare"
+
+msgid "Select an interface"
+msgstr "Seleziona un'interfaccia"
+
+msgid "Choose network configuration"
+msgstr "Scegli la configurazione di rete"
+
+msgid "No packages found"
+msgstr "Nessun pacchetto trovato"
+
+msgid "Select which greeter to install"
+msgstr "Seleziona quale schermata di benvenuto installare"
+
+msgid "Select a profile type"
+msgstr "Seleziona un tipo di profilo"
 
 msgid "Enter new password"
 msgstr "Inserisci una nuova password"
@@ -1975,20 +1990,14 @@ msgstr "Inserisci un nome utente"
 msgid "Enter a password"
 msgstr "Inserisci una password"
 
-msgid "Select an interface"
-msgstr "Seleziona un'interfaccia"
-
-msgid "Choose network configuration"
-msgstr "Scegli la configurazione di rete"
-
-msgid "Select which kernel(s) to install"
-msgstr "Scegli quali kernel installare"
-
-msgid "Select which greeter to install"
-msgstr "Seleziona quale schermata di benvenuto installare"
-
-msgid "Select a profile type"
-msgstr "Seleziona un tipo di profilo"
-
 msgid "The password did not match, please try again"
 msgstr "La password non corrisponde, prova ancora"
+
+msgid "Password strength: Weak"
+msgstr "Complessità password: Bassa"
+
+msgid "Password strength: Moderate"
+msgstr "Complessità password: Media"
+
+msgid "Password strength: Strong"
+msgstr "Complessità password: Alta"
