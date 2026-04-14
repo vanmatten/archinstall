@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-04-12 10:26+0200\n"
+"PO-Revision-Date: 2026-04-22 19:43+0200\n"
 "Last-Translator: Van Matten\n"
 "Language-Team: Alessio Cuccovillo <alessio.cuccovillo.dev@gmail.com>, Van Matten\n"
 "Language: it\n"
@@ -118,7 +118,7 @@ msgid ""
 msgstr ""
 "{}\n"
 "\n"
-"Seleziona per indice quali partizioni eliminare"
+"Seleziona per indice le partizioni da eliminare"
 
 msgid ""
 "{}\n"
@@ -127,7 +127,7 @@ msgid ""
 msgstr ""
 "{}\n"
 "\n"
-"Seleziona per indice quale partizione montare dove"
+"Seleziona per indice la partizione dove montare"
 
 msgid " * Partition mount-points are relative to inside the installation, the boot would be /boot as an example."
 msgstr " * I punti di mount della partizione sono relativi all'interno dell'installazione, per esempio l'avvio sarebbe /boot."
@@ -142,7 +142,7 @@ msgid ""
 msgstr ""
 "{}\n"
 "\n"
-"Seleziona quale partizione mascherare per la formattazione"
+"Seleziona la partizione su cui mascherare per la formattazione"
 
 msgid ""
 "{}\n"
@@ -151,7 +151,7 @@ msgid ""
 msgstr ""
 "{}\n"
 "\n"
-"Seleziona quale partizione contrassegnare come crittografata"
+"Seleziona la  partizione da contrassegnare come crittografata"
 
 msgid ""
 "{}\n"
@@ -160,7 +160,7 @@ msgid ""
 msgstr ""
 "{}\n"
 "\n"
-"Seleziona quale partizione contrassegnare come avviabile"
+"Seleziona la partizione da contrassegnare come avviabile"
 
 msgid ""
 "{}\n"
@@ -169,7 +169,7 @@ msgid ""
 msgstr ""
 "{}\n"
 "\n"
-"Seleziona su quale partizione impostare un filesystem"
+"Seleziona la partizione su cui impostare un filesystem"
 
 msgid "Enter a desired filesystem type for the partition: "
 msgstr "Inserisci un tipo di filesystem desiderato per la partizione: "
@@ -220,13 +220,13 @@ msgid "All open-source (default)"
 msgstr "Tutti gli open source (predefinito)"
 
 msgid "Choose which kernels to use or leave blank for default \"{}\""
-msgstr "Scegli quali kernel usare o lascia vuoto per il predefinito \"{}\""
+msgstr "Scegli i kernel da usare o lascia vuoto per il predefinito \"{}\""
 
 msgid "Choose which locale language to use"
-msgstr "Scegli quale lingua locale utilizzare"
+msgstr "Scegli la lingua locale da usare"
 
 msgid "Choose which locale encoding to use"
-msgstr "Scegli quale codifica locale utilizzare"
+msgstr "Scegli la codifica locale da usare"
 
 msgid "Select one of the values shown below: "
 msgstr "Seleziona uno dei valori mostrati di seguito: "
@@ -454,7 +454,7 @@ msgid "Pre-existing pacman lock never exited. Please clean up any existing pacma
 msgstr "Il lock di pacman preesistente non è mai terminato. Rimuovi ogni sessione pacman esistente prima di usare archinstall."
 
 msgid "Choose which optional additional repositories to enable"
-msgstr "Scegli quali repository aggiuntivi facoltativi abilitare"
+msgstr "Scegli i repository aggiuntivi facoltativi da abilitare"
 
 msgid "Add a user"
 msgstr "Aggiungi un utente"
@@ -497,7 +497,7 @@ msgid ""
 msgstr ""
 "{}\n"
 "\n"
-"Seleziona su quale partizione impostare i sottovolumi"
+"Seleziona la partizione su cui impostare i sottovolumi"
 
 msgid "Manage btrfs subvolumes for current partition"
 msgstr "Gestisci i sottovolumi btrfs per la partizione corrente"
@@ -518,7 +518,7 @@ msgid "Save all"
 msgstr "Salva tutto"
 
 msgid "Choose which configuration to save"
-msgstr "Scegli quale configurazione salvare"
+msgstr "Scegli la configurazione da salvare"
 
 msgid "Enter a directory for the configuration(s) to be saved: "
 msgstr "Inserisci una cartella in cui salvare le configurazioni: "
@@ -667,7 +667,7 @@ msgid "Provides a selection of various server packages to install and enable, e.
 msgstr "Fornisce una selezione di vari pacchetti server da installare e abilitare, per esempio httpd, nginx, mariadb"
 
 msgid "Choose which servers to install, if none then a minimal installation will be done"
-msgstr "Scegli quali server installare, se nessuno verrà eseguita un'installazione minima"
+msgstr "Scegli i server da installare, se non ne sarà selezionato alcuno, verrà eseguita un'installazione minima"
 
 msgid "Installs a minimal system as well as xorg and graphics drivers."
 msgstr "Installa un sistema minimo oltre a xorg e driver grafici."
@@ -741,7 +741,7 @@ msgid "Select one of the disks or skip and use /mnt as default"
 msgstr "Seleziona uno dei dischi o salta e usa /mnt come predefinito"
 
 msgid "Select which partitions to mark for formatting:"
-msgstr "Seleziona quali partizioni contrassegnare per la formattazione:"
+msgstr "Seleziona le partizioni da contrassegnare per la formattazione:"
 
 msgid "Use HSM to unlock encrypted drive"
 msgstr "Utilizza HSM per sbloccare l'unità crittografata"
@@ -824,6 +824,19 @@ msgstr "Input non valido! Riprova con un input valido [da 1 a {max_downloads}, o
 
 msgid "Parallel Downloads"
 msgstr "Download paralleli"
+
+msgid "Pacman"
+msgstr "Pacman"
+
+msgid "Color"
+msgstr "Colore"
+
+#, python-brace-format
+msgid "Enter the number of parallel downloads (1-{})"
+msgstr "Inserisci il numero di download in parallelo (1-{})"
+
+msgid "Enable colored output for pacman"
+msgstr "Attiva l'output colorato di pacman"
 
 msgid "ESC to skip"
 msgstr "ESC per saltare"
@@ -985,7 +998,7 @@ msgid "Partitions to be encrypted"
 msgstr "Partizioni da crittografare"
 
 msgid "Select disk encryption option"
-msgstr "Selezione opzione per crittografia disco"
+msgstr "Selezione l'opzione per la crittografia del disco"
 
 msgid "Select a FIDO2 device to use for HSM"
 msgstr "Seleziona un dispositivo FIDO2 da utilizzare per HSM"
@@ -1028,7 +1041,7 @@ msgid "Back"
 msgstr "Indietro"
 
 msgid "Please chose which greeter to install for the chosen profiles: {}"
-msgstr "Scegli quale greeter installare per i profili scelti: {}"
+msgstr "Scegli il greeter da installare per i profili scelti: {}"
 
 #, python-brace-format
 msgid "Environment type: {}"
@@ -1093,7 +1106,7 @@ msgid "Greeter"
 msgstr "Greeter"
 
 msgid "Please chose which greeter to install"
-msgstr "Scegli quale greeter installare"
+msgstr "Scegli il greeter da installare"
 
 msgid "This is a list of pre-programmed default_profiles"
 msgstr "Questo è un elenco di default_profiles preprogrammati"
@@ -1322,7 +1335,7 @@ msgid "LVM volumes to be encrypted"
 msgstr "Volumi LVM da crittografare"
 
 msgid "Select which LVM volumes to encrypt"
-msgstr "Seleziona volumi LVM da crittografare"
+msgstr "Seleziona i volumi LVM da crittografare"
 
 msgid "Default layout"
 msgstr "Layout predefinito"
@@ -1513,7 +1526,7 @@ msgid "Choose an option to give Hyprland access to your hardware"
 msgstr "Scegli un’opzione per concedere a Hyprland l'accesso al tuo hardware"
 
 msgid "Additional repositories"
-msgstr "Repository aggiuntive"
+msgstr "Repository aggiuntivi"
 
 msgid "NTP"
 msgstr "NTP"
@@ -1543,7 +1556,7 @@ msgid "HSM device"
 msgstr "Dispositivo HSM"
 
 msgid "Some packages could not be found in the repository"
-msgstr "Alcuni pacchetti non sono stati trovati nella repository"
+msgstr "Alcuni pacchetti non sono stati trovati nel repository"
 
 msgid "User"
 msgstr "Utente"
@@ -1564,16 +1577,16 @@ msgid "Select any packages from the below list that should be installed addition
 msgstr "Seleziona dalla lista sotto i pacchetti aggiuntivi da installare"
 
 msgid "Add a custom repository"
-msgstr "Aggiungi una repository personalizzata"
+msgstr "Aggiungi un repository personalizzato"
 
 msgid "Change custom repository"
-msgstr "Cambia repository personalizzata"
+msgstr "Cambia repository personalizzato"
 
 msgid "Delete custom repository"
-msgstr "Elimina repository personalizzata"
+msgstr "Elimina repository personalizzato"
 
 msgid "Repository name"
-msgstr "Nome repository"
+msgstr "Nome del repository"
 
 msgid "Add a custom server"
 msgstr "Aggiungi un server personalizzato"
@@ -1594,7 +1607,7 @@ msgid "Add custom servers"
 msgstr "Aggiungi server personalizzati"
 
 msgid "Add custom repository"
-msgstr "Aggiungi repository personalizzate"
+msgstr "Aggiungi repository personalizzato"
 
 msgid "Loading mirror regions..."
 msgstr "Caricamento regioni dei mirror in corso..."
@@ -1609,7 +1622,7 @@ msgid "Custom servers"
 msgstr "Server personalizzati"
 
 msgid "Custom repositories"
-msgstr "Repository personalizzate"
+msgstr "Repository personalizzati"
 
 msgid "Only ASCII characters are supported"
 msgstr "Sono supportati solo caratteri ASCII"
@@ -2000,6 +2013,21 @@ msgstr "Usa NetworkManager (backend iwd)"
 msgid "Firewall"
 msgstr "Firewall"
 
+msgid "Additional fonts"
+msgstr "Font aggiuntivi"
+
+msgid "Select font packages to install"
+msgstr "Seleziona i pacchetti di font da installare"
+
+msgid "Unicode font coverage for most languages"
+msgstr "Copertura unicode del font per la maggior parte delle lingue"
+
+msgid "color emoji for browsers and apps"
+msgstr "emoji a colori per browser e app"
+
+msgid "Chinese, Japanese, Korean characters"
+msgstr "Caratteri cinesi, giapponesi, coreani"
+
 msgid "Select audio configuration"
 msgstr "Seleziona la configurazione audio"
 
@@ -2066,22 +2094,22 @@ msgid "Value must be between 1 and {}"
 msgstr "Il valore deve essere tra 1 e {}"
 
 msgid "Select which kernel(s) to install"
-msgstr "Scegli quali kernel installare"
+msgstr "Scegli i kernel da installare"
 
 msgid "Enter a respository name"
 msgstr "Inserisci il nome di un repository"
 
 msgid "Enter the repository url"
-msgstr "Inserisci l'URL della repository"
+msgstr "Inserisci l'URL del repository"
 
 msgid "Enter server url"
 msgstr "Inserisci l'URL del server"
 
 msgid "Select mirror regions to be enabled"
-msgstr "Seleziona quali regioni dei mirror abilitare"
+msgstr "Seleziona le regioni dei mirror da abilitare"
 
 msgid "Select optional repositories to be enabled"
-msgstr "Seleziona quali repository aggiuntive opzionali abilitare"
+msgstr "Seleziona i repository opzionali da abilitare"
 
 msgid "Select an interface"
 msgstr "Seleziona un'interfaccia"
@@ -2093,7 +2121,7 @@ msgid "No packages found"
 msgstr "Nessun pacchetto trovato"
 
 msgid "Select which greeter to install"
-msgstr "Seleziona quale greeter installare"
+msgstr "Seleziona il greeter da installare"
 
 msgid "Select a profile type"
 msgstr "Seleziona un tipo di profilo"
@@ -2126,6 +2154,9 @@ msgstr "Il profilo desktop selezionato richiede un utente regolare per accedere 
 msgid "Environment type: {} {}"
 msgstr "Tipo di ambiente: {} {}"
 
+msgid "Input cannot be empty"
+msgstr "Il campo non può essere vuoto"
+
 msgid "Recommended"
 msgstr "Raccomandato"
 
@@ -2156,5 +2187,16 @@ msgstr "Descrizione"
 msgid "Select a flavor of KDE Plasma to install"
 msgstr "Seleziona la configurazione di KDE Plasma da installare"
 
-msgid "Input cannot be empty"
-msgstr "Il campo non può essere vuoto"
+msgid "Arial/Times/Courier replacement, Cyrillic support for Steam/games"
+msgstr "Sostituto di Arial/Times/Courier, supporta il cirillico per Steam/giochi"
+
+msgid "wide Unicode coverage, good fallback font"
+msgstr "ampia copertura Unicode, ottimo font di riserva"
+
+#, python-brace-format
+msgid "Setting up U2F login: {u2f_config.u2f_login_method.value}"
+msgstr "Impostazione accesso U2F: {u2f_config.u2f_login_method.value}"
+
+#, python-brace-format
+msgid "Default: {DEFAULT_ITER_TIME}ms, Recommended range: 1000-60000"
+msgstr "Predefinito: {DEFAULT_ITER_TIME} ms, Intervallo consigliato: 1000-60000"
