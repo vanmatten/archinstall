@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-07-25 22:38+0200\n"
+"PO-Revision-Date: 2026-10-25 14:04+0100\n"
 "Last-Translator: Van Matten\n"
 "Language-Team: Alessio Cuccovillo <alessio.cuccovillo.dev@gmail.com>, Van Matten\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.10\n"
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-SearchPath-0: base.pot\n"
 
@@ -104,75 +104,6 @@ msgstr "Seleziona la configurazione audio"
 msgid "Select font packages to install"
 msgstr "Seleziona i pacchetti di font da installare"
 
-msgid "ArchInstall Language"
-msgstr "Lingua di ArchInstall"
-
-msgid "Version"
-msgstr "Versione"
-
-msgid "Installation Script"
-msgstr "Script di installazione"
-
-msgid "Locales"
-msgstr "Localizzazione"
-
-msgid "Disk configuration"
-msgstr "Configurazione del disco"
-
-msgid "Profile"
-msgstr "Profilo"
-
-msgid "Mirrors and repositories"
-msgstr "Mirror e repository"
-
-msgid "Network"
-msgstr "Rete"
-
-msgid "Bootloader"
-msgstr "Bootloader"
-
-msgid "Application"
-msgstr "Applicazione"
-
-msgid "Authentication"
-msgstr "Autenticazione"
-
-msgid "Swap"
-msgstr "Swap"
-
-msgid "Hostname"
-msgstr "Nome host"
-
-msgid "Kernels"
-msgstr "Kernel"
-
-msgid "Automatic time sync (NTP)"
-msgstr "Sincronizzazione automatica dell'ora (NTP)"
-
-msgid "Timezone"
-msgstr "Fuso orario"
-
-msgid "Services"
-msgstr "Servizi"
-
-msgid "Additional packages"
-msgstr "Pacchetti aggiuntivi"
-
-msgid "Pacman"
-msgstr "Pacman"
-
-msgid "Custom commands"
-msgstr "Comandi personalizzati"
-
-msgid "Users"
-msgstr "Utenti"
-
-msgid "Root encrypted password"
-msgstr "Password di root crittografata"
-
-msgid "Disk encryption password"
-msgstr "Password di crittografia del disco"
-
 msgid "Incorrect credentials file decryption password"
 msgstr "Password di decrittazione del file delle credenziali errata"
 
@@ -216,6 +147,9 @@ msgstr "Inserisci la password di root"
 
 msgid "Enable passwordless sudo?"
 msgstr "Attivare sudo senza password?"
+
+msgid "Bootloader"
+msgstr "Bootloader"
 
 msgid "Unified kernel images"
 msgstr "Immagini kernel unificate"
@@ -308,6 +242,35 @@ msgstr "Vuoi criptare il file di user_credentials.json?"
 msgid "Credentials file encryption password"
 msgstr "Password di crittografia del file delle credenziali"
 
+msgid "Select main filesystem"
+msgstr "Seleziona il filesystem principale"
+
+msgid "Would you like to use compression or disable CoW?"
+msgstr "Desideri usare la compressione o disabilitare CoW?"
+
+msgid "Use compression"
+msgstr "Usa la compressione"
+
+msgid "Disable Copy-on-Write"
+msgstr "Disabilita Copy-on-Write"
+
+msgid "Would you like to use BTRFS subvolumes with a default structure?"
+msgstr "Desideri usare i sottovolumi BTRFS con una struttura predefinita?"
+
+msgid "Would you like to create a separate partition for /home?"
+msgstr "Desideri creare una partizione separata per /home?"
+
+msgid "The selected drives do not have the minimum capacity required for an automatic suggestion\n"
+msgstr "Le unità selezionate non hanno la capacità minima richiesta per un suggerimento automatico\n"
+
+#, python-brace-format
+msgid "Minimum capacity for /home partition: {}GiB\n"
+msgstr "Capacità minima per la partizione /home: {} GB\n"
+
+#, python-brace-format
+msgid "Minimum capacity for Arch Linux partition: {}GiB"
+msgstr "Capacità minima per la partizione Arch Linux: {} GiB"
+
 msgid "Partitioning"
 msgstr "Partizionamento in corso"
 
@@ -369,35 +332,6 @@ msgstr "Userai qualunque configurazione del disco che sia montata nella cartella
 
 msgid "WARNING: Archinstall won't check the suitability of this setup"
 msgstr "ATTENZIONE: Archinstall non verificherà la compatibilità di questa configurazione"
-
-msgid "Select main filesystem"
-msgstr "Seleziona il filesystem principale"
-
-msgid "Would you like to use compression or disable CoW?"
-msgstr "Desideri usare la compressione o disabilitare CoW?"
-
-msgid "Use compression"
-msgstr "Usa la compressione"
-
-msgid "Disable Copy-on-Write"
-msgstr "Disabilita Copy-on-Write"
-
-msgid "Would you like to use BTRFS subvolumes with a default structure?"
-msgstr "Desideri usare i sottovolumi BTRFS con una struttura predefinita?"
-
-msgid "Would you like to create a separate partition for /home?"
-msgstr "Desideri creare una partizione separata per /home?"
-
-msgid "The selected drives do not have the minimum capacity required for an automatic suggestion\n"
-msgstr "Le unità selezionate non hanno la capacità minima richiesta per un suggerimento automatico\n"
-
-#, python-brace-format
-msgid "Minimum capacity for /home partition: {}GiB\n"
-msgstr "Capacità minima per la partizione /home: {} GB\n"
-
-#, python-brace-format
-msgid "Minimum capacity for Arch Linux partition: {}GiB"
-msgstr "Capacità minima per la partizione Arch Linux: {} GiB"
 
 msgid "Encryption password"
 msgstr "Password di crittografia"
@@ -580,6 +514,9 @@ msgstr "Cosa desideri fare dopo?"
 msgid "Select which kernel(s) to install"
 msgstr "Seleziona i kernel da installare"
 
+msgid "Select optional firmware to install (none are pulled in by linux-firmware)"
+msgstr "Seleziona il firmware opzionale da installare (nessuno è inserito da linux-firmware)"
+
 msgid "For the best compatibility with your AMD hardware, you may want to use either the all open-source or AMD / ATI options."
 msgstr "Per la migliore compatibilità con il tuo hardware AMD, potresti voler utilizzare tutte le opzioni open source o AMD / ATI."
 
@@ -598,11 +535,50 @@ msgstr "Seleziona un algoritmo di compressione zram:"
 msgid "Archinstall language"
 msgstr "Lingua di Archinstall"
 
+msgid "Locales"
+msgstr "Localizzazione"
+
+msgid "Mirrors and repositories"
+msgstr "Mirror e repository"
+
+msgid "Disk configuration"
+msgstr "Configurazione del disco"
+
+msgid "Swap"
+msgstr "Swap"
+
+msgid "Kernels"
+msgstr "Kernel"
+
+msgid "Additional firmware"
+msgstr "Firmware aggiuntivo"
+
+msgid "Hostname"
+msgstr "Nome host"
+
+msgid "Authentication"
+msgstr "Autenticazione"
+
+msgid "Profile"
+msgstr "Profilo"
+
 msgid "Applications"
 msgstr "Applicazioni"
 
 msgid "Network configuration"
 msgstr "Configurazione di rete"
+
+msgid "Pacman"
+msgstr "Pacman"
+
+msgid "Additional packages"
+msgstr "Pacchetti aggiuntivi"
+
+msgid "Timezone"
+msgstr "Fuso orario"
+
+msgid "Automatic time sync (NTP)"
+msgstr "Sincronizzazione automatica dell'ora (NTP)"
 
 msgid "Save configuration"
 msgstr "Salva configurazione"
@@ -828,40 +804,43 @@ msgstr "Sostituto di Arial/Times/Courier, supporta il cirillico per Steam/giochi
 msgid "wide Unicode coverage, good fallback font"
 msgstr "ampia copertura Unicode, ottimo font di riserva"
 
-msgid "Zram enabled"
-msgstr "Zram attiva"
+msgid "enabled"
+msgstr "attivato"
+
+msgid "Fonts"
+msgstr "Caratteri"
+
+msgid "Zram"
+msgstr "Zram"
 
 #, python-brace-format
-msgid "Zram algorithm {}"
-msgstr "Algoritmo Zram {}"
+msgid "Algorithm \"{}\""
+msgstr "Algoritmo \"{}\""
 
-msgid "Bluetooth enabled"
-msgstr "Bluetooth attivo"
+msgid "Zram disabled"
+msgstr "Zram disattivata"
 
-#, python-brace-format
-msgid "Audio server \"{}\""
-msgstr "Server audio \"{}\""
-
-#, python-brace-format
-msgid "Power management \"{}\""
-msgstr "Gestione energetica \"{}\""
-
-msgid "Print service enabled"
-msgstr "Servizio di stampa attivo"
-
-#, python-brace-format
-msgid "Firewall \"{}\""
-msgstr "Firewall \"{}\""
-
-#, python-brace-format
-msgid "Extra fonts \"{}\""
-msgstr "Font aggiuntivi \"{}\""
+msgid "Application"
+msgstr "Applicazione"
 
 msgid "Passwordless login"
 msgstr "Accesso senza password"
 
 msgid "Second factor login"
 msgstr "Accesso con secondo fattore"
+
+msgid "U2F login"
+msgstr "Accesso U2F"
+
+#, python-brace-format
+msgid "U2F login method \"{}\""
+msgstr "Metodo di accesso U2F \"{}\""
+
+msgid "U2F passwordless sudo enabled"
+msgstr "Sudo senza password U2F attivato"
+
+msgid "U2F passwordless sudo disabled"
+msgstr "Sudo senza password U2F disattivato"
 
 msgid "Root password set"
 msgstr "Imposta la password di root"
@@ -870,15 +849,11 @@ msgstr "Imposta la password di root"
 msgid "Configured {} user(s)"
 msgstr "{} utente/i configurato/i"
 
-msgid "U2F set up"
-msgstr "Imposta U2F"
+msgid "U2F configured"
+msgstr "U2F configurato"
 
-#, python-brace-format
-msgid "Bootloader \"{}\""
-msgstr "Bootloader \"{}\""
-
-msgid "UKI enabled"
-msgstr "UKI attiva"
+msgid "UKI \"enabled\""
+msgstr "UKI \"attiva\""
 
 msgid "Removable"
 msgstr "Rimovibile"
@@ -905,30 +880,108 @@ msgstr "Manuale"
 msgid "Pre-mount"
 msgstr "Premontaggio"
 
+msgid "Disk layout"
+msgstr "Layout del disco"
+
 #, python-brace-format
 msgid "{} layout"
 msgstr "Layout {}"
 
 #, python-brace-format
-msgid "Devices {}"
-msgstr "Dispositivi {}"
+msgid "Device(s) \"{}\""
+msgstr "Dispositivi \"{}\""
 
 msgid "LVM set up"
 msgstr "Imposta LVM"
 
 #, python-brace-format
-msgid "{} encryption"
-msgstr "Crittografia {}"
+msgid "\"{}\" encryption"
+msgstr "Crittografia \"{}\""
 
 #, python-brace-format
 msgid "Btrfs snapshot \"{}\""
 msgstr "Snapshot Btrfs \"{}\""
 
+#, python-brace-format
+msgid "Mountpoint \"{}\""
+msgstr "Punto di montaggio \"{}\""
+
 msgid "Unknown"
 msgstr "Sconosciuto"
 
+msgid "Partition modification"
+msgstr "Modifica partizione"
+
+#, python-brace-format
+msgid "Filesystem {}"
+msgstr "Filesystem {}"
+
+#, python-brace-format
+msgid "Size {}"
+msgstr "Dimensione {}"
+
+#, python-brace-format
+msgid "Status {}"
+msgstr "Stato {}"
+
+#, python-brace-format
+msgid "Mountpoint {}"
+msgstr "Punto di montaggio {}"
+
+#, python-brace-format
+msgid "{} subvolume(s)"
+msgstr "Sottovolumi {}"
+
 msgid "Default layout"
 msgstr "Layout predefinito"
+
+msgid "LVM volume group"
+msgstr "Gruppo volume LVM"
+
+#, python-brace-format
+msgid "Volume group \"{}\""
+msgstr "Gruppo volume \"{}\""
+
+#, python-brace-format
+msgid "Volume group \"{}\" on {}"
+msgstr "Gruppo volume \"{}\" su {}"
+
+msgid "LVM volume"
+msgstr "Volume LVM"
+
+#, python-brace-format
+msgid "Volume \"{}\""
+msgstr "Volume \"{}\""
+
+msgid "LVM"
+msgstr "LVM"
+
+#, python-brace-format
+msgid "LVM \"{}\""
+msgstr "LVM \"{}\""
+
+msgid "Btrfs snapshot"
+msgstr "Snapshot Btrfs"
+
+msgid "Btrfs options"
+msgstr "Opzioni Btrfs"
+
+msgid "Device modification"
+msgstr "Modifica dispositivo"
+
+#, python-brace-format
+msgid "Device {}"
+msgstr "Dispositivo {}"
+
+msgid "wipe"
+msgstr "cancella"
+
+msgid "keep existing data"
+msgstr "mantieni i dati esistenti"
+
+#, python-brace-format
+msgid "Device \"{}\" ({})"
+msgstr "Dispositivo \"{}\" ({})"
 
 msgid "No Encryption"
 msgstr "Nessuna crittografia"
@@ -943,34 +996,85 @@ msgid "LUKS on LVM"
 msgstr "LUKS su LVM"
 
 #, python-brace-format
+msgid "{} encryption"
+msgstr "Crittografia {}"
+
+#, python-brace-format
+msgid "{} encrypted partition(s)"
+msgstr "Partizioni crittografate {}"
+
+#, python-brace-format
+msgid "{} encrypted volume(s)"
+msgstr "Volumi crittografati {}"
+
+#, python-brace-format
+msgid "FIDO2 device \"{}\""
+msgstr "Dispositivo FIDO2 \"{}\""
+
+#, python-brace-format
+msgid "Iteration time {} ms"
+msgstr "Tempo di iterazione {} ms"
+
+msgid "Locale"
+msgstr "Localizzazione"
+
+#, python-brace-format
 msgid "Keyboard layout \"{}\""
 msgstr "Layout della tastiera \"{}\""
 
 #, python-brace-format
-msgid "Locale language \"{}\""
+msgid "Language \"{}\""
 msgstr "Lingua \"{}\""
 
 #, python-brace-format
-msgid "Locale encoding \"{}\""
+msgid "Encoding \"{}\""
 msgstr "Codifica \"{}\""
 
 #, python-brace-format
 msgid "Console font \"{}\""
 msgstr "Font della console \"{}\""
 
+msgid "Mirror region"
+msgstr "Regione dei mirror"
+
 #, python-brace-format
-msgid "Mirror regions \"{}\""
-msgstr "Regioni dei mirror \"{}\""
+msgid "Region \"{}\""
+msgstr "Regione \"{}\""
+
+msgid "Custom repository"
+msgstr "Repository personalizzato"
+
+#, python-brace-format
+msgid "Repository \"{}\""
+msgstr "Repository: \"{}\""
+
+msgid "Sign check"
+msgstr "Controllo della firma"
+
+msgid "Sign options"
+msgstr "Opzioni di accesso"
+
+msgid "Custom server"
+msgstr "Server personalizzato"
+
+msgid "Mirrors"
+msgstr "Mirror"
+
+#, python-brace-format
+msgid "{} Mirror region(s)"
+msgstr "Regioni dei mirror {}"
 
 #, python-brace-format
 msgid "Optional repositories \"{}\""
 msgstr "Repository opzionali \"{}\""
 
-msgid "Custom servers set up"
-msgstr "Imposta server personalizzati"
+#, python-brace-format
+msgid "{} Custom server(s)"
+msgstr "{} Server personalizzati"
 
-msgid "Custom repositories set up"
-msgstr "Imposta repository personalizzati"
+#, python-brace-format
+msgid "{} Custom repository(s)"
+msgstr "Repository personalizzati {}"
 
 msgid "Copy ISO network configuration to installation"
 msgstr "Copia la configurazione di rete ISO nell'installazione"
@@ -987,19 +1091,67 @@ msgstr "Usa iwd standalone"
 msgid "Manual configuration"
 msgstr "Configurazione manuale"
 
+#, python-brace-format
+msgid "Interface \"{}\""
+msgstr "Interfaccia \"{}\""
+
+msgid "DHCP enabled"
+msgstr "DHCP attivato"
+
+#, python-brace-format
+msgid "IP address \"{}\""
+msgstr "Indirizzo IP \"{}\""
+
+#, python-brace-format
+msgid "Gateway \"{}\""
+msgstr "Gateway \"{}\""
+
+#, python-brace-format
+msgid "DNS servers \"{}\""
+msgstr "Server DNS \"{}\""
+
+msgid "Network"
+msgstr "Rete"
+
+msgid "Cavium LiquidIO server adapters"
+msgstr "Adattatori server Cavium LiquidIO"
+
+msgid "Marvell devices"
+msgstr "Dispositivi Marvell"
+
+msgid "Mellanox Spectrum switches"
+msgstr "Interruttori Mellanox Spectrum"
+
+msgid "Netronome Flow Processors"
+msgstr "Processori Netronome Flow"
+
+msgid "Qualcomm SoCs"
+msgstr "SoC Qualcomm"
+
+msgid "QLogic devices"
+msgstr "Dispositivi QLogic"
+
 msgid "Package group:"
 msgstr "Gruppo di pacchetti:"
 
-msgid "Color enabled"
-msgstr "Colore attivo"
+#, python-brace-format
+msgid "Parallel downloads \"{}\""
+msgstr "Download in parallelo \"{}\""
+
+msgid "Color \"enabled\""
+msgstr "Colore \"attivato\"!"
 
 #, python-brace-format
-msgid "{} graphics driver"
-msgstr "Driver grafici {}"
+msgid "Selected profiles \"{}\""
+msgstr "Profili selezionati \"{}\""
 
 #, python-brace-format
-msgid "{} greeter"
-msgstr "Greeter {}"
+msgid "\"{}\" graphics driver"
+msgstr "Driver grafici \"{}\""
+
+#, python-brace-format
+msgid "\"{}\" greeter"
+msgstr "Greeter \"{}\""
 
 msgid "very weak"
 msgstr "molto debole"
@@ -1012,6 +1164,20 @@ msgstr "discreta"
 
 msgid "strong"
 msgstr "forte"
+
+msgid "User"
+msgstr "Utente"
+
+#, python-brace-format
+msgid "User \"{}\""
+msgstr "Utente \"{}\""
+
+msgid "sudo user"
+msgstr "utente sudo"
+
+#, python-brace-format
+msgid "groups {}"
+msgstr "gruppi {}"
 
 msgid "Add interface"
 msgstr "Aggiungi interfaccia"
@@ -1145,9 +1311,6 @@ msgstr "Promuovi/Retrocedi un utente"
 
 msgid "Delete User"
 msgstr "Elimina utente"
-
-msgid "User"
-msgstr "Utente"
 
 msgid "Enter new password"
 msgstr "Inserisci una nuova password"
@@ -1386,6 +1549,57 @@ msgstr "No"
 msgid " (default)"
 msgstr " (predefinito)"
 
+#~ msgid "ArchInstall Language"
+#~ msgstr "Lingua di ArchInstall"
+
+#~ msgid "Version"
+#~ msgstr "Versione"
+
+#~ msgid "Installation Script"
+#~ msgstr "Script di installazione"
+
+#~ msgid "Services"
+#~ msgstr "Servizi"
+
+#~ msgid "Custom commands"
+#~ msgstr "Comandi personalizzati"
+
+#~ msgid "Users"
+#~ msgstr "Utenti"
+
+#~ msgid "Root encrypted password"
+#~ msgstr "Password di root crittografata"
+
+#~ msgid "Disk encryption password"
+#~ msgstr "Password di crittografia del disco"
+
+#~ msgid "Bluetooth enabled"
+#~ msgstr "Bluetooth attivo"
+
+#, python-brace-format
+#~ msgid "Power management \"{}\""
+#~ msgstr "Gestione energetica \"{}\""
+
+#~ msgid "Print service enabled"
+#~ msgstr "Servizio di stampa attivo"
+
+#, python-brace-format
+#~ msgid "Extra fonts \"{}\""
+#~ msgstr "Font aggiuntivi \"{}\""
+
+#~ msgid "U2F set up"
+#~ msgstr "Imposta U2F"
+
+#, python-brace-format
+#~ msgid "Bootloader \"{}\""
+#~ msgstr "Bootloader \"{}\""
+
+#~ msgid "Custom servers set up"
+#~ msgstr "Imposta server personalizzati"
+
+#~ msgid "Custom repositories set up"
+#~ msgstr "Imposta repository personalizzati"
+
 #~ msgid "[!] A log file has been created here: {} {}"
 #~ msgstr "[!] Un file di log è stato creato qui: {} {}"
 
@@ -1579,14 +1793,8 @@ msgstr " (predefinito)"
 #~ msgid "Error: Could not decode \"{}\" result as JSON:"
 #~ msgstr "Errore: impossibile decodificare il risultato \"{}\" come JSON:"
 
-#~ msgid "Mirror region"
-#~ msgstr "Regione dei mirror"
-
 #~ msgid "Drive(s)"
 #~ msgstr "Unità"
-
-#~ msgid "Disk layout"
-#~ msgstr "Layout del disco"
 
 #~ msgid "Superuser account"
 #~ msgstr "Account superuser"
@@ -1905,9 +2113,6 @@ msgstr " (predefinito)"
 #~ msgid "Device"
 #~ msgstr "Dispositivo"
 
-#~ msgid "Size"
-#~ msgstr "Dimensione"
-
 #~ msgid "Free space"
 #~ msgstr "Spazio libero"
 
@@ -1996,9 +2201,6 @@ msgstr " (predefinito)"
 #~ msgid "If mountpoint /boot is set, then the partition will also be marked as bootable."
 #~ msgstr "Se il punto di montaggio /boot è impostato, anche la partizione sarà contrassegnata come avviabile."
 
-#~ msgid "Mountpoint: "
-#~ msgstr "Punto di montaggio: "
-
 #~ msgid "Current free sectors on device {}:"
 #~ msgstr "Settori attualmente liberi sul dispositivo {}:"
 
@@ -2022,9 +2224,6 @@ msgstr " (predefinito)"
 
 #~ msgid "Select disk encryption option"
 #~ msgstr "Seleziona un'opzione per la crittografia del disco"
-
-#~ msgid "Partition encryption"
-#~ msgstr "Crittografia partizione"
 
 #, python-brace-format
 #~ msgid " ! Formatting {} in "
@@ -2134,12 +2333,6 @@ msgstr " (predefinito)"
 #~ msgid "Saving {} configuration files to {}"
 #~ msgstr "Salva file di configurazione {} in {}"
 
-#~ msgid "Mirrors"
-#~ msgstr "Mirror"
-
-#~ msgid "Mirror regions"
-#~ msgstr "Regioni dei mirror"
-
 #~ msgid " - Maximum value   : {} ( Allows {} parallel downloads, allows {max_downloads+1} downloads at a time )"
 #~ msgstr " - Valore massimo   : {} ( Consente {} download in parallelo, consente {max_downloads+1} download alla volta )"
 
@@ -2178,9 +2371,6 @@ msgstr " (predefinito)"
 
 #~ msgid "Packages"
 #~ msgstr "Pacchetti"
-
-#~ msgid "Locale"
-#~ msgstr "Localizzazione"
 
 #~ msgid "This option enables the number of parallel downloads that can occur during package downloads"
 #~ msgstr "Questa opzione consente di impostare il numero di download in parallelo che possono avvenire durante l'installazione"
@@ -2231,9 +2421,6 @@ msgstr " (predefinito)"
 #~ msgid "Seat access"
 #~ msgstr "Accesso al posto"
 
-#~ msgid "Filesystem"
-#~ msgstr "Filesystem"
-
 #~ msgid "Start (default: sector {}): "
 #~ msgstr "Inizio (predefinito: settore{}): "
 
@@ -2255,20 +2442,11 @@ msgstr " (predefinito)"
 #~ msgid "Number downloads"
 #~ msgstr "Numero di download"
 
-#~ msgid "Interfaces"
-#~ msgstr "Interfacce"
-
 #~ msgid "Modes"
 #~ msgstr "Modalità"
 
-#~ msgid "IP address"
-#~ msgstr "Indirizzo IP"
-
 #~ msgid "Gateway address"
 #~ msgstr "Indirizzo gateway"
-
-#~ msgid "DNS servers"
-#~ msgstr "Server DNS"
 
 #~ msgid "Info"
 #~ msgstr "Info"
